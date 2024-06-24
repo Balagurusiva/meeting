@@ -9,7 +9,7 @@ const Home = () => {
        <Link to='/meet' style={{backgroundColor:'blue', height:"50px", borderRadius:'20px', padding:'10px', color:'white' }}>New Meeting</Link>
 
 
-       <input type="text" style={{backgroundColor:'white', height:"50px", borderRadius:'20px',   }} placeholder='Enter the link' onChange={e => setLink(e.target.value)} />
+       <input type="text" style={{backgroundColor:'white', color:'black' height:"50px", borderRadius:'20px',   }} placeholder='Enter the link' onChange={e => setLink(e.target.value)} />
        <Link to={link} style={{backgroundColor:'blue', height:"50px", borderRadius:'20px', padding:'10px', color:'white' }}>Join Meeting</Link>
     </div>
   )
